@@ -28,17 +28,15 @@ a:hover {
 	text-decoration:underline;
 }
 pre {
-	background-color:#444;
-	padding:10px 15px;
-	margin:15px 0;
-	border-radius:10px;
-	font-family:'Courier', Courier, monospace;
+	margin:15px 0 15px 5px;
+	padding-left:20px;
+	font-family: 'Droid Sans Mono', sans-serif;
 	font-size:1.0em;
-	color:#F2BC57;
 	line-height:1.2em;
+	border-left:#71C6D9 4px solid;
 }
-pre span {
-	color:#F2E6D8;
+code {
+	font-family: 'Droid Sans Mono', sans-serif;
 }
 strong {
 	font-weight:900;
@@ -173,7 +171,7 @@ nav ul li a:hover {
 	font-size:1.5em;
 	font-weight:900;
 	margin:30px 0 10px 0;
-	color:#111;
+	color:#A6242F;
 }
 .entry-content h3 {
 	font-family: 'Roboto', sans-serif;
@@ -196,7 +194,7 @@ nav ul li a:hover {
 	margin:0 0 17px 20px;
 	padding-left:10px;
 	color:#222;
-	border-left:medium #F2BC57 solid;
+	border-left:4px #F2BC57 solid;
 }
 .entry-footer {
 	font-family: 'Roboto', serif;
@@ -214,7 +212,7 @@ nav ul li a:hover {
 #comments-list h3 {
 	font-family: 'Roboto', serif;
 	color:#000;
-	font-weight:700;
+	font-weight:600;
 	margin:5px 0 10px 0;
 	font-size:0.9em;
 }
@@ -223,7 +221,7 @@ nav ul li a:hover {
 	color:#000;
 	margin:5px 0 10px 0;
 	font-size:0.9em;
-	font-weight:700;
+	font-weight:600;
 }
 .vcard {}
 .comment-meta {
@@ -292,7 +290,7 @@ nav ul li a:hover {
 	font-weight:700;
 }
 .cat-item a {
-	font-weight:100;
+	font-weight:600;
 	font-size:0.75em;
 	color:#A6242F;
 }
@@ -300,13 +298,18 @@ nav ul li a:hover {
 	margin:0 0 2px 0;
 }
 .widget-container ul li a {
-	font-weight:100;
+	font-weight:600;
 	font-size:0.8em;
 	color:#A6242F;
+	opacity:0.7;
+	-webkit-transition:.5s;
+	-moz-transition:.5s;
+	-o-transition:.5s;
+	transition:.5s;
 }
 .widget-container ul li a:hover {
-	font-weight:bold;
-	text-decoration:underline;
+	text-decoration:none;
+	opacity:1.0;
 }
 #recent-posts {
 	border-bottom:thin #c0c0c0 solid;
